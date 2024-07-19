@@ -99,11 +99,22 @@ In this iteration, you will create more complex visualizations to uncover deeper
 ## Enhanced Visualizations
 - Add annotations, customize color maps, and adjust axes properties for clarity and visual appeal.
 
-# Iteration 5: Summarize Findings
+# Iteration 5: Data Scaling
+In this iteration, you will apply data scaling to prepare your dataset for further analysis or machine learning models.
+
+Standard Scaling
+Use StandardScaler to scale numerical variables (e.g., Sales, Discount) to have a mean of 0 and a standard deviation of 1.
+
+# Iteration 6: Hypothesis Testing
+In this iteration, you will perform hypothesis testing to compare sales between different regions.
+
+Two-sample T-test
+Compare the means of sales between two regions (e.g., 'North' and 'South').
+
+# Iteration 7: Summarize Findings
 In this final iteration, you will summarize your findings and prepare a presentation for stakeholders.
 
-## Summary of Insights
-- Summarize the key insights obtained from the analysis in a clear and concise manner.
+Summarize the key insights obtained from the analysis in a clear and concise manner.
 
 ## Presentation-Ready Visuals
 - Apply different Seaborn styles and color palettes to improve visual presentation.
