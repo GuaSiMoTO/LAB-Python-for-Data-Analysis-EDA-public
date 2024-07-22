@@ -150,6 +150,29 @@ Hypothesis testing allows you to make statistical inferences about the data. In 
 ## Iteration 7: Summarize Findings
 In the final iteration, you'll consolidate your findings and prepare a comprehensive report. This is where you present your insights in a structured manner, making it easy for stakeholders to understand and act upon them.
 
+## Iteration 7: Dimensionality Reduction with PCA
+
+In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the dimensionality of the dataset. This technique helps simplify the dataset by transforming it into a lower-dimensional space while retaining the most important features.
+
+### Steps to Follow
+
+1. **Prepare the Data:**
+   - Standardize numerical features if they are not already standardized.
+
+2. **Apply PCA:**
+   - Use PCA to transform the dataset into principal components.
+
+3. **Analyze Results:**
+   - Examine the explained variance ratio to understand how much variance each principal component captures.
+
+4. **Visualize PCA Components:**
+   - Create biplots or scatter plots to visualize the distribution of the data in the reduced feature space.
+5. **Explore Component Loadings:**
+   - Analyze the component loadings to understand the contribution of each original feature to the principal components. This helps in interpreting which features are most         influential in the reduced dimensions.
+
+**PCA** helps in reducing the complexity of the data by projecting it onto a lower-dimensional space, making it easier to visualize and analyze.
+
+
 ### Create a Report
 - Compile the visualizations and insights into a report or presentation format.
 
