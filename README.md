@@ -102,11 +102,46 @@ In this iteration, you will create more complex visualizations to uncover deeper
 ## Enhanced Visualizations
 - Add annotations, customize color maps, and adjust axes properties for clarity and visual appeal.
 
-# Iteration 5: Data Scaling
-In this iteration, you will standardize the numerical variables in your dataset, specifically Sales and Discount, to have a mean of 0 and a standard deviation of 1. This ensures all features contribute equally to the analysis and improves the performance of machine learning models. Ensures that Sales and Discount are on the same scale, making comparisons more meaningfulIn this iteration, you will standardize the Sales and Discount columns to have a mean of 0 and a standard deviation of 1. This helps improve model performance, allows for fair comparisons between features, and enhances visualizations by ensuring all data points contribute equally to the analysis. Use StandardScaler from sklearn.preprocessing to transform these columns.
+## Iteration 5: Data Scaling
 
-# Iteration 6: Hypothesis Testing
-In this iteration, you will perform hypothesis testing to compare sales between different regions. Specifically, you will use a **two-sample T-test** to determine if there is a significant difference in the average sales between two regions (e.g., 'North' and 'South'). This test helps you understand if the observed differences in sales are statistically significant or if they could have occurred by random chance.
+**Objective:**  
+Standardize the numerical variables in the dataset to ensure that all features contribute equally to the analysis and improve the performance of machine learning models.
+
+**Steps to Follow:**
+
+1. **Select the Numerical Variables:**
+   - Identify the numerical columns in the Titanic dataset that you want to standardize. Common examples might be `Age` and `Fare`.
+
+2. **Verify the Transformation:**
+   - Check that the standardized variables have a mean close to 0 and a standard deviation close to 1 to ensure the standardization was applied correctly.
+
+3. **Save the Changes:**
+   - Make sure to save the transformed data in the original DataFrame or a new file if necessary.
+---
+
+## Iteration 6: Hypothesis Testing
+
+**Objective:**  
+Conduct hypothesis testing to compare a variable between two different groups in the Titanic dataset and determine if there is a significant difference between them.
+
+**Steps to Follow:**
+
+1. **Formulate the Hypotheses:**
+   - Define the null hypothesis and the alternative hypothesis based on the variable you are comparing (e.g., age of survivors vs. non-survivors).
+
+2. **Perform the Normality Test:**
+   - Use the Shapiro-Wilk test to check if the distributions of the variable (e.g., `Age`) in both groups (e.g., survivors and non-survivors) follow a normal distribution.
+
+3. **Perform the Homogeneity of Variances Test:**
+   - Apply Levene's test to check if the variances in the two groups are homogeneous.
+
+4. **Select the Appropriate Hypothesis Test:**
+   - If the distributions are normal and the variances are homogeneous, perform an independent two-sample T-test to compare the means of the two groups.
+   - If the assumptions for the T-test are not met, use a non-parametric test such as the Mann-Whitney U test.
+
+5. **Interpret the Results:**
+   - Examine the p-value obtained from the hypothesis test to determine if there is sufficient evidence to reject the null hypothesis.
+   - Also consider the effect size to evaluate the magnitude of the difference, if applicable.
 
 # Iteration 7: Summarize Findings
 In this final iteration, you will summarize your findings and prepare a presentation for stakeholders.
