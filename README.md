@@ -183,11 +183,19 @@ In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the
 For an added challenge, explore creating interactive visualizations and dashboards. This will make your data exploration more dynamic and engaging.
 Convert one of the existing plots into an interactive visualization using Plotly.
 
-## Dashboard Layout
+## Iteration 8: Apply Your Skills to a Real Dataset
 
-### Dashboard with Multiple Plots
+Now that you have completed the lab exercises and gained confidence in loading, inspecting, and cleaning datasets, it's time to apply these skills to a real-world dataset. This will help you practice and reinforce your understanding of Exploratory Data Analysis (EDA).
 
-Create a dashboard layout with multiple subplots to show different aspects of the data in a single visualization.
+### Objective:
+
+Perform EDA on a real-world dataset from Kaggle to uncover insights and patterns.
+
+### Dataset Overview:
+
+You will be using the Netflix dataset available on Kaggle. This dataset contains information about Netflix shows and movies, including their titles, genres, release dates, and ratings.
+
+- [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/swatikhedekar/exploratory-data-analysis-on-netflix-data/data)
 
 ## Submission
 Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
