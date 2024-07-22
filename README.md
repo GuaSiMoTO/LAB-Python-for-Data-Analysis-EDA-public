@@ -58,6 +58,8 @@ Use pandas to load the provided CSV file and inspect the first few rows to under
 - Display the basic information about the dataset, such as the number of rows, columns, and data types of each column.
 - Use descriptive statistics to understand the distribution of numerical and categorical variables.
 
+[describe - Pandas Documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.describe.html)
+
 ## Iteration 2: Data Cleaning
 In this iteration, you will handle missing values, duplicate rows, and incorrect data types.
 
