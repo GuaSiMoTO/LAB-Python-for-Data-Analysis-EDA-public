@@ -187,12 +187,6 @@ Convert one of the existing plots into an interactive visualization using Plotly
 
 Now that you have completed the lab exercises and gained confidence in loading, inspecting, and cleaning datasets, it's time to apply these skills to a real-world dataset. This will help you practice and reinforce your understanding of Exploratory Data Analysis (EDA).
 
-### Objective:
-
-Perform EDA on a real-world dataset from Kaggle to uncover insights and patterns.
-
-### Dataset Overview:
-
 You will be using the Netflix dataset available on Kaggle. This dataset contains information about Netflix shows and movies, including their titles, genres, release dates, and ratings.
 
 - [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/swatikhedekar/exploratory-data-analysis-on-netflix-data/data)
