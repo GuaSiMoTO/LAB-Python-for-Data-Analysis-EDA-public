@@ -108,7 +108,7 @@ Building on the initial visualizations, it's time to dive deeper with advanced t
 ### Enhanced Visualizations
 - Add annotations, customize color maps, and adjust axes properties for clarity and visual appeal.
 
-### Iteration 5: Data Scaling
+## Iteration 5: Data Scaling
  
 Standardizing numerical variables is an important step, especially when preparing data for machine learning models. This iteration focuses on scaling your data to ensure that all features contribute equally to the analysis.
 
