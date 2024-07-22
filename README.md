@@ -113,9 +113,6 @@ In this final iteration, you will summarize your findings and prepare a presenta
 
 Summarize the key insights obtained from the analysis in a clear and concise manner.
 
-## Presentation-Ready Visuals
-- Apply different Seaborn styles and color palettes to improve visual presentation.
-
 ## Create a Report
 - Compile the visualizations and insights into a report or presentation format.
 
