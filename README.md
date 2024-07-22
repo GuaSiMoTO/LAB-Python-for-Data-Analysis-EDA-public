@@ -48,7 +48,7 @@ Make sure you have all the necessary libraries installed by using the `requireme
 pip install -r requirements.txt
 ```
 
-### Iteration 1: Load and Inspect the Dataset
+## Iteration 1: Load and Inspect the Dataset
 In this iteration, you will learn to load the dataset, inspect its structure, and understand the basic statistics of the data.
 
 ### Load the dataset
