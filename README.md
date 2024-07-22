@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Hello everyone! In this session, we will explore the use of pandas, Matplotlib, and Seaborn to perform Exploratory Data Analysis (EDA). This includes learning how to load datasets, clean data, and create various visualizations to understand the underlying patterns and insights in the data. Imagine you are part of a small team at a company, and you need to analyze the team's data using Python. This lab will empower you with the techniques to perform thorough EDA, making you more effective in your data handling roles.
+Welcome to the Exploratory Data Analysis (EDA) lab! As a junior data analyst at a retail company, your task is to explore and analyze a sales dataset to uncover valuable insights that can influence business decisions.
+
+You will work with a dataset that includes various numerical and categorical variables related to sales transactions. Your goal is to perform a thorough exploratory analysis to identify trends, anomalies, and opportunities.
 
 ## Initial Setup
 
