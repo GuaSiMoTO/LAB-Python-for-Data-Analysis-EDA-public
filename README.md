@@ -1,5 +1,7 @@
 # LAB: Python for Data Analysis - Exploratory Data Analysis (EDA)
 
+![Excel Image](https://user-images.githubusercontent.com/970858/63474771-d6734700-c469-11e9-83bb-9429da563909.png)
+
 ## Introduction
 
 Welcome to the Exploratory Data Analysis (EDA) lab! As a junior data analyst at a retail company, your task is to explore and analyze a sales dataset to uncover valuable insights that can influence business decisions.
