@@ -47,6 +47,7 @@ Make sure you have all the necessary libraries installed by using the `requireme
 ```bash
 pip install -r requirements.txt
 ```
+
 # Iteration 1: Load and Inspect the Dataset
 In this iteration, you will learn to load the dataset, inspect its structure, and understand the basic statistics of the data.
 
@@ -55,7 +56,7 @@ Use pandas to load the provided CSV file and inspect the first few rows to under
 
 ## Inspect the dataset
 - Display the basic information about the dataset, such as the number of rows, columns, and data types of each column.
-- Use descriptive statistics to understand the distribution of numerical variables.
+- Use descriptive statistics to understand the distribution of numerical and categorical variables.
 
 # Iteration 2: Data Cleaning
 In this iteration, you will handle missing values, duplicate rows, and incorrect data types.
