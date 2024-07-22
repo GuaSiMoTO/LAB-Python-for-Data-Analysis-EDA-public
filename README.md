@@ -85,7 +85,7 @@ In this iteration, you will create various visualizations to explore the data.
 ## Sales Trends Over Time
 - Create line plots to analyze sales trends over different time periods.
 
-**Tip**: search `resample` method.
+**Tip**: search `resample` [method](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.resample.html).
 
 ## Sales by Category and Region
 - Create bar plots and box plots to compare sales across different product categories and geographical regions.
