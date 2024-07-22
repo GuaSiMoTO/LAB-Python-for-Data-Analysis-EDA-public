@@ -48,61 +48,61 @@ Make sure you have all the necessary libraries installed by using the `requireme
 pip install -r requirements.txt
 ```
 
-# Iteration 1: Load and Inspect the Dataset
+### Iteration 1: Load and Inspect the Dataset
 In this iteration, you will learn to load the dataset, inspect its structure, and understand the basic statistics of the data.
 
-## Load the dataset
+### Load the dataset
 Use pandas to load the provided CSV file and inspect the first few rows to understand its structure.
 
-## Inspect the dataset
+### Inspect the dataset
 - Display the basic information about the dataset, such as the number of rows, columns, and data types of each column.
 - Use descriptive statistics to understand the distribution of numerical and categorical variables.
 
-# Iteration 2: Data Cleaning
+## Iteration 2: Data Cleaning
 In this iteration, you will handle missing values, duplicate rows, and incorrect data types.
 
-## Handle missing values
+### Handle missing values
 - Identify columns with missing values and decide on an appropriate strategy to handle them (e.g., fill with mean/median, drop rows/columns).
 
-## Remove duplicates
+### Remove duplicates
 - Check for and remove any duplicate rows in the dataset.
 
-## Correct data types
+### Correct data types
 - Ensure all columns have the correct data types (e.g., dates should be in datetime format).
 
-# Iteration 3: Data Visualization with Matplotlib and Seaborn
+## Iteration 3: Data Visualization with Matplotlib and Seaborn
 In this iteration, you will create various visualizations to explore the data.
 
-## Distribution of Numerical Variables
+### Distribution of Numerical Variables
 - Create histograms and box plots to understand the distribution and spread of numerical variables.
 
-## Categorical Variable Analysis
+### Categorical Variable Analysis
 - Create bar plots to visualize the frequency of different categories.
 
-## Correlation Analysis
+### Correlation Analysis
 - Create a heatmap to visualize the correlations between numerical variables.
 
-## Sales Trends Over Time
+### Sales Trends Over Time
 - Create line plots to analyze sales trends over different time periods.
 
 **Tip**: search `resample` [method](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.resample.html).
 
-## Sales by Category and Region
+### Sales by Category and Region
 - Create bar plots and box plots to compare sales across different product categories and geographical regions.
 
-# Iteration 4: Advanced Visualizations and Insights
+## Iteration 4: Advanced Visualizations and Insights
 In this iteration, you will create more complex visualizations to uncover deeper insights.
 
-## Pair Plot Analysis
+### Pair Plot Analysis
 - Use pair plots to explore relationships between multiple variables simultaneously.
 
-## Facet Grids
+### Facet Grids
 - Create facet grids to visualize distributions across different subsets of data.
 
-## Enhanced Visualizations
+### Enhanced Visualizations
 - Add annotations, customize color maps, and adjust axes properties for clarity and visual appeal.
 
-## Iteration 5: Data Scaling
+### Iteration 5: Data Scaling
 
 **Objective:**  
 Standardize the numerical variables in the dataset to ensure that all features contribute equally to the analysis and improve the performance of machine learning models.
@@ -143,23 +143,23 @@ Conduct hypothesis testing to compare a variable between two different groups in
    - Examine the p-value obtained from the hypothesis test to determine if there is sufficient evidence to reject the null hypothesis.
    - Also consider the effect size to evaluate the magnitude of the difference, if applicable.
 
-# Iteration 7: Summarize Findings
+## Iteration 7: Summarize Findings
 In this final iteration, you will summarize your findings and prepare a presentation for stakeholders.
 
 Summarize the key insights obtained from the analysis in a clear and concise manner.
 
-## Create a Report
+### Create a Report
 - Compile the visualizations and insights into a report or presentation format.
 
-# Bonus Challenge: Interactive Visualizations
+## Bonus Challenge: Interactive Visualizations
 ## Interactive Elements with Plotly
 - Convert one of the existing plots into an interactive visualization using Plotly.
 
-# Dashboard Layout
-## Dashboard with Multiple Plots
+## Dashboard Layout
+### Dashboard with Multiple Plots
 - Create a dashboard layout with multiple subplots to show different aspects of the data in a single visualization.
 
-# Submission
+## Submission
 Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
 
 
@@ -171,7 +171,7 @@ $ git push origin main
 
 Then create a Pull Request!!
 
-# Additional Resources
+## Additional Resources
 
 - [Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/)
 - [Matplotlib Documentation](https://matplotlib.org/)
