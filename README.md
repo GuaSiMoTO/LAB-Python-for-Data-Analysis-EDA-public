@@ -147,9 +147,6 @@ Hypothesis testing allows you to make statistical inferences about the data. In 
    - Examine the p-value obtained from the hypothesis test to determine if there is sufficient evidence to reject the null hypothesis.
    - Also consider the effect size to evaluate the magnitude of the difference, if applicable.
 
-## Iteration 7: Summarize Findings
-In the final iteration, you'll consolidate your findings and prepare a comprehensive report. This is where you present your insights in a structured manner, making it easy for stakeholders to understand and act upon them.
-
 ## Iteration 7: Dimensionality Reduction with PCA
 
 In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the dimensionality of the dataset. This technique helps simplify the dataset by transforming it into a lower-dimensional space while retaining the most important features.
@@ -172,6 +169,8 @@ In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the
 
 **PCA** helps in reducing the complexity of the data by projecting it onto a lower-dimensional space, making it easier to visualize and analyze.
 
+## Iteration 8: Summarize Findings
+In the final iteration, you'll consolidate your findings and prepare a comprehensive report. This is where you present your insights in a structured manner, making it easy for stakeholders to understand and act upon them.
 
 ### Create a Report
 - Compile the visualizations and insights into a report or presentation format.
