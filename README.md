@@ -117,13 +117,13 @@ Standardizing numerical variables is an important step, especially when preparin
 **Steps to Follow:**
 
 1. **Select the Numerical Variables:**
-   - Identify the numerical columns in the Titanic dataset that you want to standardize. Common examples might be `Age` and `Fare`.
+   - Identify the numerical columns in the sales dataset that you want to standardize. The columns in your dataset are Sales and Discount.
+  
+2. Standardize the Variables:
+    - Use `StandardScaler` from `sklearn.preprocessing` to standardize the selected numerical variables. This process will transform the data so that each            variable has a mean of 0 and a standard deviation of 1.
 
-2. **Verify the Transformation:**
+3. **Verify the Transformation:**
    - Check that the standardized variables have a mean close to 0 and a standard deviation close to 1 to ensure the standardization was applied correctly.
-
-3. **Save the Changes:**
-   - Make sure to save the transformed data in the original DataFrame or a new file if necessary.
 ---
 
 ## Iteration 6: Hypothesis Testing
@@ -133,17 +133,17 @@ Hypothesis testing allows you to make statistical inferences about the data. In 
 **Steps to Follow:**
 
 1. **Formulate the Hypotheses:**
-   - Define the null hypothesis and the alternative hypothesis based on the variable you are comparing (e.g., age of survivors vs. non-survivors).
+   - Define the null hypothesis and the alternative hypothesis based on the variable you are comparing (e.g., sales in different regions).
 
 2. **Perform the Normality Test:**
-   - Use the Shapiro-Wilk test to check if the distributions of the variable (e.g., `Age`) in both groups (e.g., survivors and non-survivors) follow a normal distribution.
+   - Use the `Shapiro-Wilk` test to check if the distributions of the variable (e.g., Sales) in both groups (e.g., Region A and Region B) follow a normal distribution.
 
 3. **Perform the Homogeneity of Variances Test:**
    - Apply Levene's test to check if the variances in the two groups are homogeneous.
 
 4. **Select the Appropriate Hypothesis Test:**
    - If the distributions are normal and the variances are homogeneous, perform an independent two-sample T-test to compare the means of the two groups.
-   - If the assumptions for the T-test are not met, use a non-parametric test such as the Mann-Whitney U test.
+   - If the assumptions for the T-test are not met, use a non-parametric test such as the `Mann-Whitney U test`.
 
 5. **Interpret the Results:**
    - Examine the p-value obtained from the hypothesis test to determine if there is sufficient evidence to reject the null hypothesis.
@@ -167,9 +167,7 @@ In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the
 4. **Visualize PCA Components:**
    - Create biplots or scatter plots to visualize the distribution of the data in the reduced feature space.
 5. **Explore Component Loadings:**
-   - Analyze the component loadings to understand the contribution of each original feature to the principal components. This helps in interpreting which features are most         influential in the reduced dimensions.
-
-**PCA** helps in reducing the complexity of the data by projecting it onto a lower-dimensional space, making it easier to visualize and analyze.
+   - Analyze the component loadings to understand the contribution of each original feature to the principal components. This helps in interpreting which features are most influential in the reduced dimensions.
 
 ## Iteration 8: Summarize Findings
 In the final iteration, you'll consolidate your findings and prepare a comprehensive report. This is where you present your insights in a structured manner, making it easy for stakeholders to understand and act upon them.
