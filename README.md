@@ -138,14 +138,11 @@ Hypothesis testing allows you to make statistical inferences about the data. In 
 2. **Perform the Normality Test:**
    - Use the `Shapiro-Wilk` test to check if the distributions of the variable (e.g., Sales) in both groups (e.g., Region A and Region B) follow a normal distribution.
 
-3. **Perform the Homogeneity of Variances Test:**
-   - Apply Levene's test to check if the variances in the two groups are homogeneous.
-
-4. **Select the Appropriate Hypothesis Test:**
+3. **Select the Appropriate Hypothesis Test:**
    - If the distributions are normal and the variances are homogeneous, perform an independent two-sample T-test to compare the means of the two groups.
    - If the assumptions for the T-test are not met, use a non-parametric test such as the `Mann-Whitney U test`.
 
-5. **Interpret the Results:**
+4. **Interpret the Results:**
    - Examine the p-value obtained from the hypothesis test to determine if there is sufficient evidence to reject the null hypothesis.
    - Also consider the effect size to evaluate the magnitude of the difference, if applicable.
 
