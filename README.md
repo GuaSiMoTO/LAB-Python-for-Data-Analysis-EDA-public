@@ -184,7 +184,7 @@ In the final iteration, you'll consolidate your findings and prepare a comprehen
 For an added challenge, explore creating interactive visualizations and dashboards. This will make your data exploration more dynamic and engaging.
 Convert one of the existing plots into an interactive visualization using Plotly.
 
-## Iteration 8: Apply Your Skills to a Real Dataset
+## Apply Your Skills to a Real Dataset
 
 Now that you have completed the lab exercises and gained confidence in loading, inspecting, and cleaning datasets, it's time to apply these skills to a real-world dataset. This will help you practice and reinforce your understanding of Exploratory Data Analysis (EDA).
 
