@@ -82,10 +82,10 @@ With a solid understanding of the dataset's structure, it's time to focus on cle
 Having cleaned the data, you're now ready to explore it visually. Visualization is a powerful tool for uncovering patterns, trends, and anomalies in the data. In this iteration, you'll create various plots to get a better understanding of the dataset.
 
 ### Distribution of Numerical Variables
-- Create histograms and box plots to understand the distribution and spread of numerical variables.
+- Create histograms and box plots to understand the distribution and spread of all numerical variables.
 
 ### Categorical Variable Analysis
-- Create bar plots to visualize the frequency of different categories.
+- Create bar plots to visualize the frequency of all different categories.
 
 ### Correlation Analysis
 - Create a heatmap to visualize the correlations between numerical variables.
