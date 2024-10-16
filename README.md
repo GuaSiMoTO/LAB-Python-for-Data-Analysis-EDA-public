@@ -164,7 +164,7 @@ In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the
 4. **Visualize PCA Components:**
    - Create biplots or scatter plots to visualize the distribution of the data in the reduced feature space.
 5. **Explore Component Loadings:**
-   - Analyze the component loadings to understand the contribution of each original feature to the principal components. This helps in interpreting which features are most influential in the reduced dimensions.
+   - Analyze the component loadings by visualizing them with a heatmap to understand the contribution of each original feature to the principal components. This helps in interpreting which features are most influential in the reduced dimensions.
 
 ## Iteration 8: Summarize Findings
 In the final iteration, you'll consolidate your findings and prepare a comprehensive report. This is where you present your insights in a structured manner, making it easy for stakeholders to understand and act upon them.
