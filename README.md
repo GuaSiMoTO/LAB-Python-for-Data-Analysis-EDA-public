@@ -102,13 +102,10 @@ Having cleaned the data, you're now ready to explore it visually. Visualization 
 Building on the initial visualizations, it's time to dive deeper with advanced techniques. These visualizations will provide more nuanced insights and allow you to explore relationships between multiple variables.
 
 ### Pair Plot Analysis
-- Use pair plots to explore relationships between multiple variables simultaneously.
+- Utilize pair plots to simultaneously explore relationships between the numerical variables 'Sales' and 'Discount', facilitating quick identification of trends, correlations, and outliers.
 
 ### Facet Grids
-- Create facet grids to visualize distributions across different subsets of data.
-
-### Enhanced Visualizations
-- Add annotations, customize color maps, and adjust axes properties for clarity and visual appeal.
+- Employ facet grids to visualize the distribution of sales data across different product categories and regions, enhancing comparative analysis.
 
 ## Iteration 5: Data Scaling
  
