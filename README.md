@@ -130,18 +130,21 @@ Hypothesis testing allows you to make statistical inferences about the data. In 
 **Steps to Follow:**
 
 1. **Formulate the Hypotheses:**
-   - Define the null hypothesis and the alternative hypothesis based on the variable you are comparing (e.g., sales in different regions).
+   - Establish the null hypothesis (H0) and the alternative hypothesis (H1) for comparing average sales between the East and West regions.
+   - H0: There is no significant difference in average sales between the East and West regions.
+   - H1: There is a significant difference in average sales between the East and West regions.
 
 2. **Perform the Normality Test:**
-   - Use the `Shapiro-Wilk` test to check if the distributions of the variable (e.g., Sales) in both groups (e.g., Region A and Region B) follow a normal distribution.
+   - Apply the Shapiro-Wilk test to assess whether the sales data for both regions (East and West) follow a normal distribution.
 
 3. **Select the Appropriate Hypothesis Test:**
-   - If the distributions are normal and the variances are homogeneous, perform an independent two-sample T-test to compare the means of the two groups.
-   - If the assumptions for the T-test are not met, use a non-parametric test such as the `Mann-Whitney U test`.
+   - Perform an independent two-sample T-test if the sales distributions for both regions are normal and have homogeneous variances, to compare the mean sales between the East and West regions.
+   - Use a non-parametric test, such as the Mann-Whitney U test, if the assumptions for the T-test (normality or equal variances) are not met.
 
 4. **Interpret the Results:**
-   - Examine the p-value obtained from the hypothesis test to determine if there is sufficient evidence to reject the null hypothesis.
-   - Also consider the effect size to evaluate the magnitude of the difference, if applicable.
+   - Analyze the p-value obtained from the hypothesis test to determine if there is sufficient evidence to reject the null hypothesis:
+     - Reject H0: If the p-value < 0.05, indicating a statistically significant difference in sales between the East and West regions.
+     - Fail to Reject H0: If the p-value ≥ 0.05, suggesting no statistically significant difference in sales.
 
 ## Iteration 7: Dimensionality Reduction with PCA
 
