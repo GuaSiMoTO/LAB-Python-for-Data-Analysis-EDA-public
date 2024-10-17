@@ -183,9 +183,9 @@ Convert one of the existing plots into an interactive visualization using Plotly
 
 Now that you have completed the lab exercises and gained confidence in loading, inspecting, and cleaning datasets, it's time to apply these skills to a real-world dataset. This will help you practice and reinforce your understanding of Exploratory Data Analysis (EDA).
 
-You will be using the Netflix dataset available on Kaggle. This dataset contains information about Netflix shows and movies, including their titles, genres, release dates, and ratings.
+You will be using the Music & Mental Health Survey Results dataset available on Kaggle. This dataset contains information from a survey about the relationship between music preferences and mental health, including details on favorite music genres, reported mental health conditions, and how they correlate.
 
-- [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/swatikhedekar/exploratory-data-analysis-on-netflix-data/data)
+- [Music & Mental Health Survey Results](https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results/data)
 
 ## Submission
 Once you have completed your analysis and visualizations, push your Jupyter notebook to your forked GitHub repository. Ensure that your final submission includes narratives explaining your visualizations and insights.
