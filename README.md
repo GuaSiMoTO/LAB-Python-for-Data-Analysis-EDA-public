@@ -166,12 +166,6 @@ In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the
 5. **Explore Component Loadings:**
    - Analyze the component loadings by visualizing them with a heatmap to understand the contribution of each original feature to the principal components. This helps in interpreting which features are most influential in the reduced dimensions.
 
-## Iteration 8: Summarize Findings
-In the final iteration, you'll consolidate your findings and prepare a comprehensive report. This is where you present your insights in a structured manner, making it easy for stakeholders to understand and act upon them.
-
-### Create a Report
-- Compile the visualizations and insights into a report or presentation format.
-
 ## Bonus Challenge: Interactive Visualizations
 
 ## Interactive Elements with Plotly
