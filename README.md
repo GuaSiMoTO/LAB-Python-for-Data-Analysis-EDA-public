@@ -127,7 +127,7 @@ Standardizing numerical variables is an important step, especially when preparin
 
 Hypothesis testing allows you to make statistical inferences about the data. In this iteration,you will perform the Shapiro-Wilk Normality Test.
 
-The Shapiro-Wilk test will be conducted on the sales data from both the East and West regions to assess whether the sales data follows a normal distribution. This test is appropriate for small to medium-sized datasets and evaluates if the data is normally distributed.
+The Shapiro-Wilk test will be conducted on the sales data to assess whether it follows a normal distribution. This test is appropriate for small to medium-sized datasets and evaluates whether the data is normally distributed.
 
 - Null Hypothesis (H0): The sales data follows a normal distribution.
 - Alternative Hypothesis (H1): The sales data does not follow a normal distribution.
