@@ -162,7 +162,7 @@ In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the
    - Examine the explained variance ratio to understand how much variance each principal component captures.
 
 4. **Visualize PCA Components:**
-   - Create biplots or scatter plots to visualize the distribution of the data in the reduced feature space.
+   - Create a scatter plot to visualize the distribution of the data in the reduced feature space.
 5. **Explore Component Loadings:**
    - Analyze the component loadings by visualizing them with a heatmap to understand the contribution of each original feature to the principal components. This helps in interpreting which features are most influential in the reduced dimensions.
 
