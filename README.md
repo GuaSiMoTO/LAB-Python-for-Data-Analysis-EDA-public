@@ -125,26 +125,15 @@ Standardizing numerical variables is an important step, especially when preparin
 
 ## Iteration 6: Hypothesis Testing
 
-Hypothesis testing allows you to make statistical inferences about the data. In this iteration, you'll compare variables between groups to determine if observed differences are statistically significant.
+Hypothesis testing allows you to make statistical inferences about the data. In this iteration,you will perform the Shapiro-Wilk Normality Test.
 
-**Steps to Follow:**
+The Shapiro-Wilk test will be conducted on the sales data from both the East and West regions to assess whether the sales data follows a normal distribution. This test is appropriate for small to medium-sized datasets and evaluates if the data is normally distributed.
 
-1. **Formulate the Hypotheses:**
-   - Establish the null hypothesis (H0) and the alternative hypothesis (H1) for comparing average sales between the East and West regions.
-   - H0: There is no significant difference in average sales between the East and West regions.
-   - H1: There is a significant difference in average sales between the East and West regions.
+Null Hypothesis (H0): The sales data follows a normal distribution.
+Alternative Hypothesis (H1): The sales data does not follow a normal distribution.
 
-2. **Perform the Normality Test:**
-   - Apply the Shapiro-Wilk test to assess whether the sales data for both regions (East and West) follow a normal distribution.
+If the resulting p-value is greater than the significance level (α = 0.05), we fail to reject the null hypothesis, indicating that the data is normally distributed. If the p-value is less than 0.05, we reject the null hypothesis, indicating that the data does not follow a normal distribution.
 
-3. **Select the Appropriate Hypothesis Test:**
-   - Perform an independent two-sample T-test if the sales distributions for both regions are normal and have homogeneous variances, to compare the mean sales between the East and West regions.
-   - Use a non-parametric test, such as the Mann-Whitney U test, if the assumptions for the T-test (normality or equal variances) are not met.
-
-4. **Interpret the Results:**
-   - Analyze the p-value obtained from the hypothesis test to determine if there is sufficient evidence to reject the null hypothesis:
-     - Reject H0: If the p-value < 0.05, indicating a statistically significant difference in sales between the East and West regions.
-     - Fail to Reject H0: If the p-value ≥ 0.05, suggesting no statistically significant difference in sales.
 
 ## Iteration 7: Dimensionality Reduction with PCA
 
