@@ -129,8 +129,8 @@ Hypothesis testing allows you to make statistical inferences about the data. In 
 
 The Shapiro-Wilk test will be conducted on the sales data from both the East and West regions to assess whether the sales data follows a normal distribution. This test is appropriate for small to medium-sized datasets and evaluates if the data is normally distributed.
 
-Null Hypothesis (H0): The sales data follows a normal distribution.
-Alternative Hypothesis (H1): The sales data does not follow a normal distribution.
+- Null Hypothesis (H0): The sales data follows a normal distribution.
+- Alternative Hypothesis (H1): The sales data does not follow a normal distribution.
 
 If the resulting p-value is greater than the significance level (α = 0.05), we fail to reject the null hypothesis, indicating that the data is normally distributed. If the p-value is less than 0.05, we reject the null hypothesis, indicating that the data does not follow a normal distribution.
 
