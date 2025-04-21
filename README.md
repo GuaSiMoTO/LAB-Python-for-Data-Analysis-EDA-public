@@ -96,18 +96,12 @@ Having cleaned the data, you're now ready to explore it visually. Visualization 
 **Tip**: search `resample` [method](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.resample.html).
 
 ### Sales by Category and Region
-- Create bar plots and box plots to compare sales across different product categories and geographical regions.
-
-## Iteration 4: Advanced Visualizations and Insights
-Building on the initial visualizations, it's time to dive deeper with advanced techniques. These visualizations will provide more nuanced insights and allow you to explore relationships between multiple variables.
+- Employ facet grids to visualize the distribution of sales data across different product categories and regions, enhancing comparative analysis.
 
 ### Pair Plot Analysis
 - Utilize pair plots to simultaneously explore relationships between the numerical variables 'Sales' and 'Discount', facilitating quick identification of trends, correlations, and outliers.
 
-### Facet Grids
-- Employ facet grids to visualize the distribution of sales data across different product categories and regions, enhancing comparative analysis.
-
-## Iteration 5 — Hypothesis Testing  
+## Iteration 4 — Hypothesis Testing  
 
 In this iteration you will run the **Shapiro‑Wilk normality test** on the **`Sales`** variable to check whether it follows a normal distribution.
 
@@ -131,7 +125,7 @@ Determine whether statistical methods that assume normality are appropriate and 
 
 ---
 
-## Iteration 6 — Data Scaling  
+## Iteration 5 — Data Scaling  
 
 Standardising numerical variables is essential before training machine‑learning models because it ensures that every feature contributes equally to the analysis.
 
@@ -148,7 +142,7 @@ Standardising numerical variables is essential before training machine‑learnin
    - Confirm that the transformed variables have the expected range (mean ≈ 0 & SD ≈ 1 for `StandardScaler`, or 0 → 1 for `MinMaxScaler`) to make sure scaling was applied correctly.
 
 
-## Iteration 7: Dimensionality Reduction with PCA
+## Iteration 6: Dimensionality Reduction with PCA
 
 In this iteration, you'll apply Principal Component Analysis (PCA) to reduce the dimensionality of the dataset. This technique helps simplify the dataset by transforming it into a lower-dimensional space while retaining the most important features.
 
