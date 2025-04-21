@@ -107,25 +107,7 @@ Building on the initial visualizations, it's time to dive deeper with advanced t
 ### Facet Grids
 - Employ facet grids to visualize the distribution of sales data across different product categories and regions, enhancing comparative analysis.
 
-## Iteration 5 — Data Scaling  
-
-Standardising numerical variables is essential before training machine‑learning models because it ensures that every feature contributes equally to the analysis.
-
-### Steps to follow
-
-1. **Select numerical variables**  
-   - Identify the numeric columns you will scale: **`Sales`** and **`Discount`**.
-
-2. **Standardise the variables**  
-   - Apply `StandardScaler` from `sklearn.preprocessing` to the selected columns.  
-   - *Z‑score* scaling produces variables with a mean of 0 and a standard deviation of 1.
-
-3. **Verify the transformation**  
-   - Confirm that the transformed variables have a mean ≈ 0 and a standard deviation ≈ 1 to ensure the scaling was applied correctly.
-
----
-
-## Iteration 6 — Hypothesis Testing  
+## Iteration 5 — Hypothesis Testing  
 
 In this iteration you will run the **Shapiro‑Wilk normality test** on the **`Sales`** variable to check whether it follows a normal distribution.
 
@@ -145,7 +127,26 @@ Determine whether statistical methods that assume normality are appropriate and 
 * If **p‑value > α** → fail to reject **H₀** ⇒ treat the data as normal.  
 * If **p‑value ≤ α** → reject **H₀** ⇒ conclude the data are **not** normal.
 
-> **Note:** If the data are not normal, consider a different scaling method such as **`MinMaxScaler`** or a power transformation (Box‑Cox / Yeo‑Johnson) instead of `StandardScaler`.
+> **Note:** If the data are not normal, consider a different scaling method such as **`MinMaxScaler`** or a power transformation (Box‑Cox / Yeo‑Johnson).
+
+---
+
+## Iteration 6 — Data Scaling  
+
+Standardising numerical variables is essential before training machine‑learning models because it ensures that every feature contributes equally to the analysis.
+
+### Steps to follow
+
+1. **Select numerical variables**  
+   - Identify the numeric columns you will scale: **`Sales`** and **`Discount`**.
+
+2. **Choose and apply the scaler**  
+   - If *Iteration 5* indicated normal data, use `StandardScaler` from `sklearn.preprocessing`.  
+   - Otherwise, use `MinMaxScaler` (or another suitable transformer).  
+
+3. **Verify the transformation**  
+   - Confirm that the transformed variables have the expected range (mean ≈ 0 & SD ≈ 1 for `StandardScaler`, or 0 → 1 for `MinMaxScaler`) to make sure scaling was applied correctly.
+
 
 ## Iteration 7: Dimensionality Reduction with PCA
 
