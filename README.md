@@ -121,7 +121,7 @@ Determine whether statistical methods that assume normality are appropriate and 
 * If **p‑value > α** → fail to reject **H₀** ⇒ treat the data as normal.  
 * If **p‑value ≤ α** → reject **H₀** ⇒ conclude the data are **not** normal.
 
-> **Note:** If the data are not normal, consider a different scaling method such as **`MinMaxScaler`** or a power transformation (Box‑Cox / Yeo‑Johnson).
+> **Note:** If the data are not normal, consider a different scaling method such as **`MinMaxScaler`**.
 
 ---
 
