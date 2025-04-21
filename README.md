@@ -107,33 +107,45 @@ Building on the initial visualizations, it's time to dive deeper with advanced t
 ### Facet Grids
 - Employ facet grids to visualize the distribution of sales data across different product categories and regions, enhancing comparative analysis.
 
-## Iteration 5: Data Scaling
- 
-Standardizing numerical variables is an important step, especially when preparing data for machine learning models. This iteration focuses on scaling your data to ensure that all features contribute equally to the analysis.
+## Iteration 5 — Data Scaling  
 
-**Steps to Follow:**
+Standardising numerical variables is essential before training machine‑learning models because it ensures that every feature contributes equally to the analysis.
 
-1. **Select the Numerical Variables:**
-   - Identify the numerical columns in the sales dataset that you want to standardize. The columns in your dataset are Sales and Discount.
-  
-2. Standardize the Variables:
-    - Use `StandardScaler` from `sklearn.preprocessing` to standardize the selected numerical variables. This process will transform the data so that each            variable has a mean of 0 and a standard deviation of 1.
+### Steps to follow
 
-3. **Verify the Transformation:**
-   - Check that the standardized variables have a mean close to 0 and a standard deviation close to 1 to ensure the standardization was applied correctly.
+1. **Select numerical variables**  
+   - Identify the numeric columns you will scale: **`Sales`** and **`Discount`**.
+
+2. **Standardise the variables**  
+   - Apply `StandardScaler` from `sklearn.preprocessing` to the selected columns.  
+   - *Z‑score* scaling produces variables with a mean of 0 and a standard deviation of 1.
+
+3. **Verify the transformation**  
+   - Confirm that the transformed variables have a mean ≈ 0 and a standard deviation ≈ 1 to ensure the scaling was applied correctly.
+
 ---
 
-## Iteration 6: Hypothesis Testing
+## Iteration 6 — Hypothesis Testing  
 
-Hypothesis testing allows you to make statistical inferences about the data. In this iteration,you will perform the Shapiro-Wilk Normality Test.
+In this iteration you will run the **Shapiro‑Wilk normality test** on the **`Sales`** variable to check whether it follows a normal distribution.
 
-The Shapiro-Wilk test will be conducted on the sales data to assess whether it follows a normal distribution. This test is appropriate for small to medium-sized datasets and evaluates whether the data is normally distributed.
+### Purpose  
+Determine whether statistical methods that assume normality are appropriate and decide—if necessary—on an alternative scaling technique.
 
-- Null Hypothesis (H0): The sales data follows a normal distribution.
-- Alternative Hypothesis (H1): The sales data does not follow a normal distribution.
+### Hypotheses  
 
-If the resulting p-value is greater than the significance level (α = 0.05), we fail to reject the null hypothesis, indicating that the data is normally distributed. If the p-value is less than 0.05, we reject the null hypothesis, indicating that the data does not follow a normal distribution.
+| Hypothesis | Description |
+|-----------|-------------|
+| **H₀ (null)** | The **`Sales`** data come from a normal distribution. |
+| **H₁ (alternative)** | The **`Sales`** data do **not** come from a normal distribution. |
 
+### Decision rule  
+
+* **α = 0.05**  
+* If **p‑value > α** → fail to reject **H₀** ⇒ treat the data as normal.  
+* If **p‑value ≤ α** → reject **H₀** ⇒ conclude the data are **not** normal.
+
+> **Note:** If the data are not normal, consider a different scaling method such as **`MinMaxScaler`** or a power transformation (Box‑Cox / Yeo‑Johnson) instead of `StandardScaler`.
 
 ## Iteration 7: Dimensionality Reduction with PCA
 
