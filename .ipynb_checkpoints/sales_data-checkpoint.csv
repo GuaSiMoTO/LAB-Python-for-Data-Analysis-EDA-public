@@ -1,0 +1,159 @@
+Date,Product_ID,Category,Region,Sales,Discount
+2023-10-22,P7094,Electronics,West,122.0,0.05
+2023-05-07,P2495,Health & Beauty,North,455.0,0.19
+2023-04-02,P6426,Sports,West,368.0,
+2023-01-25,P9218,Clothing,East,290.0,0.33
+2023-11-03,P7915,Health & Beauty,East,126.0,0.3
+2023-05-04,P7823,Clothing,North,91.0,0.14
+2023-08-17,P4422,Sports,North,208.0,0.28
+2023-12-09,P8497,Home & Garden,East,40.0,0.19
+2023-12-27,P2054,Home & Garden,South,122.0,0.49
+2023-02-02,P1036,Electronics,East,,0.42
+2023-08-26,P3180,Sports,North,,0.36
+2023-05-07,P1510,Home & Garden,East,234.0,0.12
+2023-10-03,P5788,Health & Beauty,West,350.0,0.13
+2023-01-01,P8096,Electronics,North,478.0,0.02
+2023-12-13,P9824,Home & Garden,East,107.0,
+2023-09-10,P5591,Clothing,North,392.0,0.06
+2023-04-08,P5410,Clothing,South,119.0,0.22
+2023-12-30,P9300,Electronics,East,379.0,0.1
+2023-02-23,P1764,Home & Garden,West,171.0,0.45
+2023-07-25,P8769,Electronics,North,150.0,0.24
+2023-12-20,P5177,Electronics,East,169.0,0.28
+2023-05-31,P2095,Electronics,East,328.0,0.35
+2023-08-24,P1816,Clothing,South,277.0,0.07
+2023-02-01,P4535,Health & Beauty,West,363.0,0.3
+2023-12-04,P5623,Electronics,East,433.0,0.27
+2023-01-22,P6485,Sports,East,313.0,0.1
+2023-09-17,P1466,Sports,South,405.0,0.47
+2023-02-01,P2933,Health & Beauty,South,211.0,0.3
+2023-03-07,P8819,Health & Beauty,East,,0.35
+2023-12-23,P9767,Health & Beauty,West,296.0,0.44
+2023-02-05,P6479,Sports,East,180.0,0.31
+2023-02-04,P8170,Clothing,West,479.0,
+2023-02-17,P6697,Home & Garden,South,333.0,0.05
+2023-04-03,P6291,Health & Beauty,East,41.0,0.23
+2023-09-09,P9494,Sports,East,272.0,0.11
+2023-11-21,P8762,Electronics,South,255.0,0.21
+2023-10-10,P2265,Electronics,North,364.0,0.44
+2023-03-11,P9546,Health & Beauty,North,,0.16
+2023-12-11,P2059,Clothing,South,494.0,0.06
+2023-04-24,P9189,Sports,North,78.0,0.18
+2023-06-10,P9800,Health & Beauty,North,189.0,0.45
+2023-01-05,P3954,Sports,East,495.0,0.14
+2023-01-03,P4266,Home & Garden,South,207.0,0.32
+2023-06-29,P3745,Health & Beauty,South,483.0,0.0
+2023-03-14,P5033,Clothing,South,290.0,0.18
+2023-11-08,P5001,Home & Garden,East,209.0,0.15
+2023-09-29,P2087,Sports,East,465.0,0.08
+2023-02-20,P4695,Health & Beauty,South,194.0,
+2023-09-30,P2930,Clothing,East,465.0,0.24
+2023-05-02,P4531,Electronics,East,70.0,0.35
+2023-09-23,P4754,Sports,South,383.0,0.13
+2023-04-04,P7634,Electronics,South,74.0,0.12
+2023-05-06,P2559,Electronics,South,263.0,0.08
+2023-08-11,P5672,Electronics,South,339.0,0.11
+2023-11-15,P8883,Home & Garden,South,150.0,0.28
+2023-06-29,P5570,Sports,West,326.0,
+2023-09-24,P3755,Health & Beauty,South,154.0,0.03
+2023-05-18,P9836,Home & Garden,South,40.0,0.13
+2023-04-05,P4266,Home & Garden,East,,0.12
+2023-09-18,P8152,Home & Garden,South,186.0,0.35
+2023-05-01,P8433,Health & Beauty,West,293.0,0.36
+2023-08-16,P1174,Sports,South,407.0,0.07
+2023-05-31,P5415,Sports,North,108.0,0.5
+2023-02-15,P8191,Sports,North,335.0,0.13
+2023-10-13,P8085,Home & Garden,East,33.0,0.49
+2023-08-21,P9207,Electronics,North,261.0,0.21
+2023-12-11,P9747,Sports,West,284.0,0.02
+2023-12-02,P6434,Health & Beauty,West,,0.17
+2023-06-01,P5909,Health & Beauty,North,72.0,0.32
+2023-08-31,P9992,Health & Beauty,East,405.0,0.34
+2023-06-07,P9843,Health & Beauty,West,359.0,0.27
+2023-07-17,P2967,Electronics,West,,
+2023-10-24,P1314,Electronics,West,386.0,0.28
+2023-02-11,P7931,Home & Garden,South,463.0,0.3
+2023-07-12,P1580,Health & Beauty,East,474.0,0.04
+2023-10-04,P1843,Sports,West,447.0,0.18
+2023-02-03,P3716,Electronics,West,283.0,0.12
+2023-12-25,P9559,Sports,South,450.0,
+2023-03-23,P8135,Health & Beauty,South,54.0,0.24
+2023-10-15,P3978,Electronics,North,225.0,0.49
+2023-11-03,P5031,Clothing,South,100.0,0.2
+2023-12-04,P6228,Home & Garden,West,439.0,0.41
+2023-06-30,P1786,Sports,North,69.0,0.4
+2023-04-07,P7077,Sports,West,379.0,0.08
+2023-10-25,P4800,Health & Beauty,West,407.0,0.25
+2023-07-23,P8673,Sports,East,21.0,0.35
+2023-06-19,P5112,Clothing,West,409.0,0.43
+2023-02-17,P3389,Home & Garden,West,73.0,0.16
+2023-01-27,P3648,Clothing,East,125.0,0.11
+2023-07-20,P7138,Sports,East,279.0,0.36
+2023-08-21,P3293,Clothing,North,329.0,0.4
+2023-11-24,P2555,Home & Garden,East,,
+2023-02-03,P4022,Clothing,South,210.0,0.05
+2023-12-02,P8639,Home & Garden,East,421.0,
+2023-01-19,P4409,Home & Garden,East,237.0,0.2
+2023-09-10,P8193,Electronics,West,63.0,0.26
+2023-08-31,P2093,Sports,East,181.0,0.42
+2023-02-26,P9066,Electronics,West,,0.34
+2023-07-19,P1209,Home & Garden,South,465.0,0.37
+2023-12-08,P4345,Health & Beauty,West,289.0,0.1
+2023-09-01,P3623,Sports,East,370.0,0.27
+2023-11-01,P7413,Sports,West,323.0,
+2023-05-01,P8588,Electronics,West,290.0,0.11
+2023-09-12,P8196,Electronics,East,475.0,0.09
+2023-10-27,P4197,Clothing,West,481.0,0.49
+2023-03-23,P7225,Clothing,South,234.0,0.26
+2023-09-27,P1942,Sports,West,,0.13
+2023-11-23,P7414,Sports,West,209.0,0.5
+2023-10-15,P9247,Electronics,North,315.0,0.48
+2023-12-18,P8079,Electronics,North,,0.28
+2023-05-23,P9113,Home & Garden,West,227.0,0.44
+2023-09-27,P1636,Electronics,South,,0.09
+2023-11-18,P2794,Electronics,South,357.0,0.14
+2023-04-24,P4728,Home & Garden,South,386.0,0.35
+2023-12-03,P3896,Electronics,South,72.0,0.42
+2023-03-31,P2714,Sports,South,299.0,0.43
+2023-08-31,P5525,Sports,West,429.0,0.2
+2023-05-30,P5100,Health & Beauty,East,236.0,0.44
+2023-06-26,P1700,Clothing,South,271.0,0.43
+2023-06-24,P8469,Home & Garden,South,207.0,
+2023-02-18,P3925,Sports,East,399.0,0.39
+2023-09-13,P1440,Home & Garden,West,,0.33
+2023-05-03,P2201,Home & Garden,South,176.0,0.29
+2023-06-02,P9757,Home & Garden,West,34.0,0.19
+2023-01-17,P4061,Home & Garden,South,320.0,0.47
+2023-04-19,P3623,Sports,West,84.0,0.49
+2023-10-03,P2499,Electronics,North,364.0,0.14
+2023-12-14,P5312,Electronics,East,346.0,0.15
+2023-10-27,P7151,Clothing,South,,0.24
+2023-10-22,P8762,Health & Beauty,North,363.0,0.22
+2023-03-09,P4633,Home & Garden,South,148.0,0.5
+2023-03-01,P7673,Sports,East,155.0,0.09
+2023-12-06,P4940,Health & Beauty,West,491.0,0.01
+2023-08-18,P4852,Health & Beauty,South,82.0,
+2023-10-24,P1710,Electronics,West,158.0,
+2023-12-12,P1932,Health & Beauty,South,100.0,0.18
+2023-10-06,P4544,Health & Beauty,South,411.0,
+2023-12-15,P3032,Clothing,North,182.0,0.36
+2023-11-12,P3404,Sports,East,438.0,0.15
+2023-04-11,P1140,Clothing,North,308.0,
+2023-07-04,P6446,Sports,West,398.0,0.25
+2023-02-04,P9762,Health & Beauty,North,280.0,0.32
+2023-03-17,P4438,Home & Garden,East,250.0,0.13
+2023-08-09,P6625,Health & Beauty,West,60.0,0.29
+2023-09-11,P2429,Clothing,North,47.0,0.49
+2023-09-18,P2689,Electronics,North,154.0,0.24
+2023-02-23,P5366,Clothing,West,220.0,0.45
+2023-12-09,P9672,Clothing,South,347.0,0.22
+2023-10-07,P3433,Clothing,South,,0.18
+2023-03-28,P8348,Home & Garden,West,437.0,0.32
+2023-01-05,P3954,Sports,East,495.0,0.14
+2023-12-18,P8079,Electronics,North,,0.28
+2023-01-03,P4266,Home & Garden,South,207.0,0.32
+2023-05-23,P9113,Home & Garden,West,227.0,0.44
+2023-10-27,P7151,Clothing,South,,0.24
+2023-12-25,P9559,Sports,South,450.0,
+2023-02-23,P5366,Clothing,West,220.0,0.45
+2023-08-21,P3293,Clothing,North,329.0,0.4
